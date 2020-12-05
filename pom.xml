@@ -11,11 +11,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.0.RELEASE</version>
+        <version>2.1.8.RELEASE</version>
         <relativePath/>
     </parent>
     <modules>
         <module>server-common</module>
+        <module>server-consumer</module>
+        <module>server-provider</module>
     </modules>
 
 

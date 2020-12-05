@@ -19,3 +19,14 @@ spring:
   main:
     # 解决Bean重复定义问题
     allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/server-demo?setUnicode=true&characterEncoding=utf8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
