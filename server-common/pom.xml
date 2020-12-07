@@ -9,9 +9,10 @@
     </parent>
     <groupId>com.billetsdoux</groupId>
     <artifactId>server-common</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>server-common</name>
-    <description>微服务公共依赖</description>
+    <packaging>jar</packaging>
+
 
     <properties>
         <java.version>1.8</java.version>
@@ -68,6 +69,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration> <classifier>exec</classifier></configuration>
             </plugin>
         </plugins>
     </build>

@@ -11,7 +11,7 @@ dubbo:
   # 配置注册中心
   registry:
 #    address: nacos://127.0.0.1:8848
-      address: nacos://zxgylz.com:80
+      address: nacos://150.158.172.61:8848
   # 设置超时时间
   consumer:
     timeout: 4000
